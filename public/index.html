@@ -6,6 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TravelKetoAI</title>
     <meta name="description" content="Travel. Keto. Carnivore. Your AI-powered companion for maintaining a low-carb lifestyle anywhere in the world.">
+    <link rel="canonical" href="http://localhost:1313/">
+    <meta name="theme-color" content="#059669">
+    <meta property="og:site_name" content="TravelKetoAI">
+    <meta property="og:title" content="TravelKetoAI – Travel. Keto. Carnivore.">
+    <meta property="og:description" content="Travel. Keto. Carnivore. Your AI-powered companion for maintaining a low-carb lifestyle anywhere in the world.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://localhost:1313/">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TravelKetoAI – Travel. Keto. Carnivore.">
+    <meta name="twitter:description" content="Travel. Keto. Carnivore. Your AI-powered companion for maintaining a low-carb lifestyle anywhere in the world.">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "TravelKetoAI",
+      "url": "http:\/\/localhost:1313\/",
+      "description": "Travel. Keto. Carnivore."
+    }
+    </script>
     
     
     <style>
@@ -31,6 +52,20 @@
       --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.05);
       --radius: 8px;
       --transition: all 0.2s ease-in-out;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text-primary: #e5e7eb;
+        --text-secondary: #cbd5e1;
+        --text-light: #9ca3af;
+        --bg-primary: #0b1220;
+        --bg-secondary: #0f172a;
+        --bg-accent: #052e1d;
+        --border: #1f2937;
+      }
+      .nav { background-color: rgba(11, 18, 32, 0.85); border-bottom-color: #1f2937; }
+      .footer { background: #0f172a; }
     }
     
      
@@ -322,6 +357,47 @@
       background: var(--primary);
       color: white;
     }
+
+     
+    .input {
+      width: 100%;
+      padding: 0.875rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      transition: var(--transition);
+      font-size: 1rem;
+    }
+
+    .input:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.15);
+    }
+
+    .input-group { display: flex; gap: 0.75rem; align-items: center; }
+    .label { font-weight: 600; color: var(--text-primary); margin-bottom: 0.5rem; display: block; }
+    .small { font-size: 0.875rem; color: var(--text-light); }
+
+     
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.35rem 0.65rem;
+      border-radius: 999px;
+      background: var(--bg-secondary);
+      color: var(--text-secondary);
+      font-weight: 600;
+      font-size: 0.75rem;
+      border: 1px solid var(--border);
+    }
+
+     
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; }
+    .stat { background: var(--bg-primary); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.25rem; text-align: center; }
+    .stat .num { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--primary); }
     
      
     .footer {
@@ -387,19 +463,84 @@
   </head>
   
   <body>
-    
+    <nav class="nav">
+  <div class="container">
+    <div class="nav-container">
+      <a href="http://localhost:1313/" class="nav-brand">
+        TravelKetoAI
+      </a>
+      
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="http://localhost:1313/" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="http://localhost:1313/posts/" class="nav-link">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a href="http://localhost:1313/contact/" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="http://localhost:1313/#waitlist" class="btn" style="padding: 0.5rem 1rem;">Join Waitlist</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
     <main>
       
   
-  <section class="section" style="background: linear-gradient(135deg, var(--bg-accent) 0%, var(--bg-secondary) 100%); padding: 4rem 0;">
+  <section class="section" style="padding: 5rem 0; background: radial-gradient(1200px 600px at 20% -10%, rgba(16,185,129,0.08), transparent), radial-gradient(1200px 600px at 80% -10%, rgba(245,158,11,0.08), transparent);">
     <div class="container">
-      <div class="section-title">
-        <h1 style="font-size: 3.5rem; margin-bottom: 1.5rem;">TravelKetoAI</h1>
-        <p style="font-size: 1.25rem; max-width: 800px;">Travel. Keto. Carnivore.</p>
-        <div style="margin-top: 2rem;">
-          <a href="http://localhost:1313/posts/" class="btn">Read Our Blog</a>
-          <a href="http://localhost:1313/contact/" class="btn btn-secondary" style="margin-left: 1rem;">Get in Touch</a>
+      <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); align-items: center; gap: 3rem;">
+        <div>
+          <span class="badge">🤖 AI for Keto Travelers</span>
+          <h1 style="font-size: 3rem; margin: 1rem 0 1rem;">Find Keto-Friendly Restaurants Anywhere</h1>
+          <p style="font-size: 1.125rem; max-width: 48ch;">TravelKetoAI helps low-carb, keto, and carnivore travelers discover the best places to eat—personalized to your macros and preferences.</p>
+          <div id="waitlist" style="margin-top: 2rem;">
+            <form name="waitlist" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="waitlist">
+              <p hidden>
+                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+              </p>
+              <div style="display: grid; grid-template-columns: 1fr; gap: 0.75rem; max-width: 520px;">
+                <div>
+                  <label class="label" for="email">Email</label>
+                  <input id="email" name="email" type="email" class="input" placeholder="you@example.com" required>
+                </div>
+                <div>
+                  <label class="label" for="diet">Diet Preference</label>
+                  <select id="diet" name="diet" class="input" style="appearance: none;">
+                    <option value="keto">Keto</option>
+                    <option value="low-carb">Low Carb</option>
+                    <option value="carnivore">Carnivore</option>
+                  </select>
+                </div>
+                <div class="input-group" style="justify-content: flex-start;">
+                  <button type="submit" class="btn">Join the Waitlist</button>
+                  <a href="http://localhost:1313/posts/" class="btn btn-secondary">Explore the Blog</a>
+                </div>
+                <p class="small">No spam. Unsubscribe anytime.</p>
+              </div>
+            </form>
+          </div>
+          <div class="stats" style="margin-top: 2rem;">
+            <div class="stat"><div class="num">10k+</div><div class="small">Cities targeted</div></div>
+            <div class="stat"><div class="num">100k+</div><div class="small">Restaurants indexed</div></div>
+            <div class="stat"><div class="num">24/7</div><div class="small">AI assistance</div></div>
+          </div>
         </div>
+        
+        
+        <div class="card" style="overflow: hidden;">
+          <div class="card-content" style="padding: 0;">
+            <div style="aspect-ratio: 4/5; background: url('images/heroimagesteak.jpg') center/cover no-repeat;"></div>
+          </div>
+        </div>
+        
       </div>
     </div>
   </section>
@@ -425,7 +566,7 @@
 <li>Connect with other keto travelers worldwide</li>
 </ul>
 <h3 id="get-started-today">Get Started Today</h3>
-<p>Join our community of keto travelers and be the first to know when our AI companion launches. Subscribe to our newsletter for exclusive tips, restaurant reviews, and travel guides.</p>
+<p>Join our community of keto travelers and be the first to know when our AI companion launches. Use the waitlist form on the homepage to subscribe for exclusive tips, restaurant reviews, and travel guides.</p>
 
         </div>
       </div>
@@ -540,12 +681,43 @@
       
       <div style="max-width: 500px; margin: 0 auto; text-align: center;">
         <p style="margin-bottom: 2rem;">Coming soon: AI-powered travel companion that helps you maintain your keto lifestyle anywhere in the world.</p>
-        <a href="http://localhost:1313/contact/" class="btn">Get in Touch</a>
+        <a href="#waitlist" class="btn">Join the Waitlist</a>
       </div>
     </div>
   </section>
 
     </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>TravelKetoAI</h3>
+        <p>Your AI-powered companion for maintaining a low-carb lifestyle anywhere in the world.</p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <p><a href="http://localhost:1313/">Home</a></p>
+        <p><a href="http://localhost:1313/posts/">Blog</a></p>
+        <p><a href="http://localhost:1313/contact/">Contact</a></p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Stay Updated</h3>
+        <p>Get the latest keto travel tips and updates.</p>
+        <p><a href="#waitlist" class="btn" style="padding: 0.5rem 1rem;">Join Waitlist</a></p>
+      </div>
+    </div>
     
+    <div class="footer-bottom">
+      <p>&copy; 2025 TravelKetoAI. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+
   </body>
 </html>
+
+

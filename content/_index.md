@@ -29,4 +29,4 @@ Our upcoming AI-powered app will help you:
 
 ### Get Started Today
 
-Join our community of keto travelers and be the first to know when our AI companion launches. Subscribe to our newsletter for exclusive tips, restaurant reviews, and travel guides.
+Join our community of keto travelers and be the first to know when our AI companion launches. Use the waitlist form on the homepage to subscribe for exclusive tips, restaurant reviews, and travel guides.

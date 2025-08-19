@@ -10,9 +10,14 @@
       
       <div class="card">
         <div class="card-content">
+          {{ if .Params.featured_image }}
+          <img src="{{ .Params.featured_image }}" alt="{{ .Title }}" style="width:100%; border-radius: var(--radius); border: 1px solid var(--border); margin-bottom: 1rem;" loading="lazy">
+          {{ end }}
           {{ .Content }}
         </div>
       </div>
     </div>
   </section>
 {{ end }}
+
+

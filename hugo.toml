@@ -5,6 +5,7 @@ theme = 'custom'
 
 [params]
 featured_image = ""
+hero_image = "images/heroimagesteak.jpg"
 description = "Travel. Keto. Carnivore."
 
 [markup]
