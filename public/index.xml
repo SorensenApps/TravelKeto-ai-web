@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to TravelKetoAI on TravelKetoAI</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Welcome to TravelKetoAI on TravelKetoAI</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get Updates</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;# Stay Updated with TravelKetoAI&lt;/p&gt;&#xA;&lt;p&gt;Get the latest keto travel tips, destination guides, and be the first to know when our AI travel companion launches!&lt;/p&gt;&#xA;&lt;form name=&#34;newsletter&#34; method=&#34;POST&#34; data-netlify=&#34;true&#34;&gt;&#xA;&lt;p&gt;  &lt;p&gt;&lt;/p&gt;&#xA;&lt;p&gt;    &lt;label&gt;Name: &lt;input type=&#34;text&#34; name=&#34;name&#34; required /&gt;&lt;/label&gt;&lt;/p&gt;&#xA;&lt;p&gt;  &lt;/p&gt;&lt;/p&gt;&#xA;&lt;p&gt;  &lt;p&gt;&lt;/p&gt;&#xA;&lt;p&gt;    &lt;label&gt;Email: &lt;input type=&#34;email&#34; name=&#34;email&#34; required /&gt;&lt;/label&gt;&lt;/p&gt;&#xA;&lt;p&gt;  &lt;/p&gt;&lt;/p&gt;&#xA;&lt;p&gt;  &lt;p&gt;&lt;/p&gt;&#xA;&lt;p&gt;    &lt;label&gt;&lt;/p&gt;&#xA;&lt;p&gt;      I&amp;rsquo;m interested in:&lt;/p&gt;&#xA;&lt;p&gt;      &lt;select name=&#34;interest&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;        &lt;option value=&#34;keto-travel-tips&#34;&gt;Keto Travel Tips&lt;/option&gt;&lt;/p&gt;&#xA;&lt;p&gt;        &lt;option value=&#34;destination-guides&#34;&gt;Destination Guides&lt;/option&gt;&lt;/p&gt;&#xA;&lt;p&gt;        &lt;option value=&#34;ai-companion&#34;&gt;AI Travel Companion&lt;/option&gt;&lt;/p&gt;&#xA;&lt;p&gt;        &lt;option value=&#34;all&#34;&gt;All Updates&lt;/option&gt;&lt;/p&gt;&#xA;&lt;p&gt;      &lt;/select&gt;&lt;/p&gt;&#xA;&lt;p&gt;    &lt;/label&gt;&lt;/p&gt;&#xA;&lt;p&gt;  &lt;/p&gt;&lt;/p&gt;&#xA;&lt;p&gt;  &lt;p&gt;&lt;/p&gt;&#xA;&lt;p&gt;    &lt;button type=&#34;submit&#34;&gt;Subscribe&lt;/button&gt;&lt;/p&gt;&#xA;&lt;p&gt;  &lt;/p&gt;&lt;/p&gt;&#xA;&lt;/form&gt;</description>
+    </item>
+    <item>
+      <title>Keto Travel Tips: Getting Started</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;# Your First Keto Travel Adventure Starts Here&lt;/p&gt;&#xA;&lt;p&gt;Travelling while maintaining a ketogenic lifestyle doesn&amp;rsquo;t have to be stressful. Here are some essential tips to get you started.&lt;/p&gt;&#xA;&lt;p&gt;## Planning Ahead&lt;/p&gt;&#xA;&lt;p&gt;Research keto-friendly restaurants at your destination before you travel. Most cities have hidden gems that cater to low-carb diets.&lt;/p&gt;&#xA;&lt;p&gt;## Packing Essentials&lt;/p&gt;&#xA;&lt;p&gt;Always pack keto snacks like nuts, cheese, and meat jerky for those moments when suitable food options aren&amp;rsquo;t available.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,13 @@
+baseURL = 'https://travelketo.ai'
+languageCode = 'en-gb'
+title = 'TravelKetoAI'
+theme = 'ananke'
+
+[params]
+featured_image = ""
+description = "Travel. Keto. Carnivore."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
