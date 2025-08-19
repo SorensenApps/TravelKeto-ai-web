@@ -117,6 +117,10 @@
     }
     
      
+    .skip-link { position:absolute; left:-999px; top:auto; width:1px; height:1px; overflow:hidden; }
+    .skip-link:focus { left:0; width:auto; height:auto; background: var(--primary); color:white; padding:0.5rem 1rem; z-index:9999; }
+
+     
     .nav {
       background: var(--bg-primary);
       border-bottom: 1px solid var(--border);
@@ -463,6 +467,7 @@
   </head>
   
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <nav class="nav">
   <div class="container">
     <div class="nav-container">
@@ -481,7 +486,7 @@
           <a href="http://localhost:1313/contact/" class="nav-link">Contact</a>
         </li>
         <li class="nav-item">
-          <a href="http://localhost:1313/#waitlist" class="btn" style="padding: 0.5rem 1rem;">Join Waitlist</a>
+          <a href="http://localhost:1313/#waitlist" class="btn" style="padding: 0.5rem 1rem;" aria-label="Get early access to TravelKetoAI">Get Early Access</a>
         </li>
       </ul>
     </div>
@@ -490,7 +495,7 @@
 
 
 
-    <main>
+    <main id="main-content">
       
   
   <section class="section" style="padding: 5rem 0; background: radial-gradient(1200px 600px at 20% -10%, rgba(16,185,129,0.08), transparent), radial-gradient(1200px 600px at 80% -10%, rgba(245,158,11,0.08), transparent);">
@@ -498,30 +503,23 @@
       <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); align-items: center; gap: 3rem;">
         <div>
           <span class="badge">🤖 AI for Keto Travelers</span>
-          <h1 style="font-size: 3rem; margin: 1rem 0 1rem;">Find Keto-Friendly Restaurants Anywhere</h1>
-          <p style="font-size: 1.125rem; max-width: 48ch;">TravelKetoAI helps low-carb, keto, and carnivore travelers discover the best places to eat—personalized to your macros and preferences.</p>
+          <h1 style="font-size: 3rem; margin: 1rem 0 0.75rem; max-width: 18ch;">Find Keto-Friendly Restaurants Anywhere</h1>
+          <p style="font-size: 1.125rem; max-width: 48ch;">Low Carb? Keto? Carnivore? our app will search and personalise.</p>
           <div id="waitlist" style="margin-top: 2rem;">
-            <form name="waitlist" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <form name="waitlist" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field" aria-label="Join the TravelKetoAI waitlist">
               <input type="hidden" name="form-name" value="waitlist">
+              <input type="hidden" name="subject" value="New TravelKetoAI waitlist signup">
               <p hidden>
                 <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
               </p>
               <div style="display: grid; grid-template-columns: 1fr; gap: 0.75rem; max-width: 520px;">
                 <div>
                   <label class="label" for="email">Email</label>
-                  <input id="email" name="email" type="email" class="input" placeholder="you@example.com" required>
-                </div>
-                <div>
-                  <label class="label" for="diet">Diet Preference</label>
-                  <select id="diet" name="diet" class="input" style="appearance: none;">
-                    <option value="keto">Keto</option>
-                    <option value="low-carb">Low Carb</option>
-                    <option value="carnivore">Carnivore</option>
-                  </select>
+                  <input id="email" name="email" type="email" class="input" placeholder="you@example.com" required aria-required="true" autocomplete="email">
                 </div>
                 <div class="input-group" style="justify-content: flex-start;">
-                  <button type="submit" class="btn">Join the Waitlist</button>
-                  <a href="http://localhost:1313/posts/" class="btn btn-secondary">Explore the Blog</a>
+                  <button type="submit" class="btn">Get Early Access</button>
+                  <a href="http://localhost:1313/posts/" class="btn btn-secondary">View Articles</a>
                 </div>
                 <p class="small">No spam. Unsubscribe anytime.</p>
               </div>
@@ -535,9 +533,10 @@
         </div>
         
         
-        <div class="card" style="overflow: hidden;">
+        <div class="card" style="overflow: hidden; position: relative;">
           <div class="card-content" style="padding: 0;">
-            <div style="aspect-ratio: 4/5; background: url('images/heroimagesteak.jpg') center/cover no-repeat;"></div>
+            <div role="img" aria-label="Medium-rare steak with herb butter" style="aspect-ratio: 4/5; background: url('images/heroimagesteak.jpg') center/cover no-repeat;"></div>
+            <div aria-hidden="true" style="position:absolute; inset:0; background: linear-gradient(90deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0) 70%);"></div>
           </div>
         </div>
         
@@ -605,6 +604,12 @@
             <p>Access keto travel information on the go with our mobile-optimized platform.</p>
           </div>
         </div>
+      </div>
+
+      <div class="grid" style="margin-top: 2rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
+        <div class="card"><div class="card-content"><h4>How it works</h4><p><strong>1.</strong> Tell us your preferences.</p></div></div>
+        <div class="card"><div class="card-content"><p><strong>2.</strong> Get curated restaurants matched to your macros.</p></div></div>
+        <div class="card"><div class="card-content"><p><strong>3.</strong> Save favorites and build trip lists.</p></div></div>
       </div>
     </div>
   </section>
@@ -681,7 +686,7 @@
       
       <div style="max-width: 500px; margin: 0 auto; text-align: center;">
         <p style="margin-bottom: 2rem;">Coming soon: AI-powered travel companion that helps you maintain your keto lifestyle anywhere in the world.</p>
-        <a href="#waitlist" class="btn">Join the Waitlist</a>
+        <a href="#waitlist" class="btn">Get Early Access</a>
       </div>
     </div>
   </section>
@@ -705,7 +710,7 @@
       <div class="footer-section">
         <h3>Stay Updated</h3>
         <p>Get the latest keto travel tips and updates.</p>
-        <p><a href="#waitlist" class="btn" style="padding: 0.5rem 1rem;">Join Waitlist</a></p>
+        <p><a href="#waitlist" class="btn" style="padding: 0.5rem 1rem;">Get Early Access</a></p>
       </div>
     </div>
     
@@ -717,6 +722,22 @@
 
 
 
+    <script>
+      (function(){
+        var lastY = 0;
+        var nav = document.querySelector('.nav');
+        window.addEventListener('scroll', function(){
+          var y = window.scrollY || window.pageYOffset;
+          if(!nav) return;
+          if(y > 4){
+            nav.style.boxShadow = '0 2px 8px rgba(0,0,0,0.08)';
+          } else {
+            nav.style.boxShadow = 'none';
+          }
+          lastY = y;
+        });
+      })();
+    </script>
   </body>
 </html>
 

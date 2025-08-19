@@ -115,6 +115,10 @@
       }
     }
     
+    /* Accessibility */
+    .skip-link { position:absolute; left:-999px; top:auto; width:1px; height:1px; overflow:hidden; }
+    .skip-link:focus { left:0; width:auto; height:auto; background: var(--primary); color:white; padding:0.5rem 1rem; z-index:9999; }
+
     /* Navigation */
     .nav {
       background: var(--bg-primary);
@@ -462,11 +466,28 @@
   </head>
   
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     {{ block "header" . }}{{ partial "header.html" . }}{{ end }}
-    <main>
+    <main id="main-content">
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
+    <script>
+      (function(){
+        var lastY = 0;
+        var nav = document.querySelector('.nav');
+        window.addEventListener('scroll', function(){
+          var y = window.scrollY || window.pageYOffset;
+          if(!nav) return;
+          if(y > 4){
+            nav.style.boxShadow = '0 2px 8px rgba(0,0,0,0.08)';
+          } else {
+            nav.style.boxShadow = 'none';
+          }
+          lastY = y;
+        });
+      })();
+    </script>
   </body>
 </html>
 

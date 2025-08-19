@@ -22,5 +22,12 @@
       <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>&lt;h1 id=&#34;your-first-keto-travel-adventure-starts-here&#34;&gt;Your First Keto Travel Adventure Starts Here&lt;/h1&gt;&#xA;&lt;p&gt;Travelling while maintaining a ketogenic lifestyle doesn&amp;rsquo;t have to be stressful. Here are some essential tips to get you started.&lt;/p&gt;&#xA;&lt;h2 id=&#34;planning-ahead&#34;&gt;Planning Ahead&lt;/h2&gt;&#xA;&lt;p&gt;Research keto-friendly restaurants at your destination before you travel. Most cities have hidden gems that cater to low-carb diets.&lt;/p&gt;&#xA;&lt;h2 id=&#34;packing-essentials&#34;&gt;Packing Essentials&lt;/h2&gt;&#xA;&lt;p&gt;Always pack keto snacks like nuts, cheese, and meat jerky for those moments when suitable food options aren&amp;rsquo;t available.&lt;/p&gt;&#xA;&lt;h2 id=&#34;airport-survival&#34;&gt;Airport Survival&lt;/h2&gt;&#xA;&lt;p&gt;Airport food courts are getting better at offering keto options. Look for salad bars, grilled proteins, and avoid the bread basket!&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Thank You</title>
+      <link>http://localhost:1313/thank-you/</link>
+      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/thank-you/</guid>
+      <description>&lt;h2 id=&#34;youre-on-the-list-&#34;&gt;You&amp;rsquo;re on the list 🎉&lt;/h2&gt;&#xA;&lt;p&gt;Thanks for joining the TravelKetoAI waitlist. We&amp;rsquo;ll email you with early access and updates as we get closer to launch.&lt;/p&gt;&#xA;&lt;p&gt;In the meantime:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Check out our latest posts for keto travel tips.&lt;/li&gt;&#xA;&lt;li&gt;Reply to any email to tell us which cities you want supported first.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/&#34;&gt;Back to Home&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
