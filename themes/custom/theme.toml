@@ -1,0 +1,17 @@
+name = "TravelKetoAI Custom Theme"
+license = "MIT"
+licenselink = "https://github.com/yourusername/travelketo-ai/blob/master/LICENSE"
+description = "A modern, clean theme for TravelKetoAI"
+homepage = "https://travelketo.ai"
+tags = ["blog", "travel", "keto", "modern", "clean"]
+features = ["blog", "responsive", "modern"]
+min_version = "0.80.0"
+
+[author]
+  name = "TravelKetoAI Team"
+  homepage = "https://travelketo.ai"
+
+[original]
+  name = "Custom"
+  homepage = ""
+  repo = ""

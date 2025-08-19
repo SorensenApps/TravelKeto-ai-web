@@ -1,0 +1,130 @@
+{{ define "main" }}
+  <!-- Hero Section -->
+  <section class="section" style="background: linear-gradient(135deg, var(--bg-accent) 0%, var(--bg-secondary) 100%); padding: 4rem 0;">
+    <div class="container">
+      <div class="section-title">
+        <h1 style="font-size: 3.5rem; margin-bottom: 1.5rem;">{{ .Site.Title }}</h1>
+        <p style="font-size: 1.25rem; max-width: 800px;">{{ .Site.Params.description }}</p>
+        <div style="margin-top: 2rem;">
+          <a href="{{ .Site.BaseURL }}posts/" class="btn">Read Our Blog</a>
+          <a href="{{ .Site.BaseURL }}contact/" class="btn btn-secondary" style="margin-left: 1rem;">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Do Section -->
+  <section class="section">
+    <div class="container">
+      <div class="card">
+        <div class="card-content">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-title">
+        <h2>Why Choose TravelKetoAI?</h2>
+        <p>We're building the ultimate companion for keto travelers worldwide.</p>
+      </div>
+      
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="card-content" style="text-align: center;">
+            <div style="width: 80px; height: 80px; background: var(--primary); border-radius: 50%; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem;">🌍</div>
+            <h3>Global Coverage</h3>
+            <p>Find keto-friendly options anywhere in the world with our comprehensive database.</p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-content" style="text-align: center;">
+            <div style="width: 80px; height: 80px; background: var(--primary); border-radius: 50%; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem;">🤖</div>
+            <h3>AI-Powered</h3>
+            <p>Get personalized recommendations and real-time updates using cutting-edge AI technology.</p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-content" style="text-align: center;">
+            <div style="width: 80px; height: 80px; background: var(--primary); border-radius: 50%; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem;">📱</div>
+            <h3>Mobile First</h3>
+            <p>Access keto travel information on the go with our mobile-optimized platform.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Posts Section -->
+  {{ if .Site.RegularPages }}
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Latest from Our Blog</h2>
+        <p>Discover keto travel tips, restaurant recommendations, and travel guides.</p>
+      </div>
+      
+      <div class="grid grid-2">
+        {{ range first 4 (where .Site.RegularPages "Type" "posts") }}
+        <article class="card post-card" style="display: flex; flex-direction: column; height: 100%;">
+          {{ if .Params.featured_image }}
+          <div class="post-image" style="height: 200px; background: url('{{ .Params.featured_image }}') center/cover; border-radius: var(--radius) var(--radius) 0 0;"></div>
+          {{ else }}
+          <div class="post-image" style="height: 200px; background: var(--bg-secondary); border-radius: var(--radius) var(--radius) 0 0; display: flex; align-items: center; justify-content: center; color: var(--text-light);">
+            <span style="font-size: 3rem;">📝</span>
+          </div>
+          {{ end }}
+          
+          <div class="post-content" style="padding: 1.5rem; flex: 1; display: flex; flex-direction: column;">
+            <h3 class="post-title" style="margin-bottom: 0.5rem;">
+              <a href="{{ .RelPermalink }}" style="color: inherit; text-decoration: none;">{{ .Title }}</a>
+            </h3>
+            
+            <p class="post-excerpt" style="color: var(--text-secondary); margin-bottom: 1rem; flex: 1;">
+              {{ .Summary }}
+            </p>
+            
+            <div class="post-meta" style="margin-top: auto;">
+              <time datetime="{{ .Date.Format "2006-01-02" }}" style="color: var(--text-light); font-size: 0.875rem;">{{ .Date.Format "January 2, 2006" }}</time>
+              {{ if .Params.tags }}
+              <div style="margin-top: 0.5rem;">
+                {{ range .Params.tags }}
+                <span class="tag">{{ . }}</span>
+                {{ end }}
+              </div>
+              {{ end }}
+            </div>
+            
+            <a href="{{ .RelPermalink }}" class="btn" style="margin-top: 1rem; text-align: center;">Read More</a>
+          </div>
+        </article>
+        {{ end }}
+      </div>
+      
+      <div style="text-align: center; margin-top: 3rem;">
+        <a href="{{ .Site.BaseURL }}posts/" class="btn btn-secondary">View All Posts</a>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  <!-- Newsletter Section -->
+  <section class="section" style="background: var(--bg-accent);">
+    <div class="container">
+      <div class="section-title">
+        <h2>Stay Updated</h2>
+        <p>Get the latest keto travel tips and updates delivered to your inbox.</p>
+      </div>
+      
+      <div style="max-width: 500px; margin: 0 auto; text-align: center;">
+        <p style="margin-bottom: 2rem;">Coming soon: AI-powered travel companion that helps you maintain your keto lifestyle anywhere in the world.</p>
+        <a href="{{ .Site.BaseURL }}contact/" class="btn">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+{{ end }}

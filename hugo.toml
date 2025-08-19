@@ -1,7 +1,7 @@
-baseURL = 'https://travelketo.ai'
-languageCode = 'en-gb'
+baseURL = 'https://glittery-pastelito-c1831f.netlify.app/'
+languageCode = 'en-us'
 title = 'TravelKetoAI'
-theme = 'ananke'
+theme = 'custom'
 
 [params]
 featured_image = ""
