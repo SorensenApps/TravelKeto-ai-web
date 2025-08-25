@@ -46,3 +46,4 @@ And perhaps most importantly, BBQ does not feel like a compromise. Unlike orderi
 ## Closing Thoughts
 
 For keto travelers, BBQ is more than a backup option. It is a strategy. It is one of the few cuisines where you can walk into almost any smokehouse and find a plate that is naturally aligned with your eating style. So the next time you are on the road and wondering where you can stay low-carb without stress, follow the smoke. Chances are, it will lead you straight to a keto-friendly feast.
+
