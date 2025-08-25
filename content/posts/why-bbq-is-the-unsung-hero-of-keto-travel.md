@@ -5,7 +5,7 @@ draft: false
 description: "Discover why BBQ is the perfect keto travel companion - naturally low-carb, globally accessible, and deeply satisfying without compromise."
 tags: ["keto", "travel", "bbq", "low-carb", "dining-out", "travel-food", "smoked-meats", "keto-friendly"]
 categories: ["travel-tips", "keto-guides"]
-image: "images/BBQ-Perfect-Keto.jpg"
+featured_image: "images/BBQ-Perfect-Keto.jpg"
 ---
 
 ![Why BBQ Is the Unsung Hero of Keto Travel](images/BBQ-Perfect-Keto.jpg)

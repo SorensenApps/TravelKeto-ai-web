@@ -2,31 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on TravelKetoAI</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://travelketo.ai/tags/</link>
     <description>Recent content in Tags on TravelKetoAI</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jan 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://travelketo.ai/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Keto</title>
-      <link>http://localhost:1313/tags/keto/</link>
-      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/keto/</guid>
+      <title>Bbq</title>
+      <link>https://travelketo.ai/tags/bbq/</link>
+      <pubDate>Wed, 15 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>https://travelketo.ai/tags/bbq/</guid>
       <description></description>
     </item>
     <item>
-      <title>Tips</title>
-      <link>http://localhost:1313/tags/tips/</link>
-      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tips/</guid>
+      <title>Dining-Out</title>
+      <link>https://travelketo.ai/tags/dining-out/</link>
+      <pubDate>Wed, 15 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>https://travelketo.ai/tags/dining-out/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Keto</title>
+      <link>https://travelketo.ai/tags/keto/</link>
+      <pubDate>Wed, 15 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>https://travelketo.ai/tags/keto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Keto-Friendly</title>
+      <link>https://travelketo.ai/tags/keto-friendly/</link>
+      <pubDate>Wed, 15 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>https://travelketo.ai/tags/keto-friendly/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Low-Carb</title>
+      <link>https://travelketo.ai/tags/low-carb/</link>
+      <pubDate>Wed, 15 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>https://travelketo.ai/tags/low-carb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smoked-Meats</title>
+      <link>https://travelketo.ai/tags/smoked-meats/</link>
+      <pubDate>Wed, 15 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>https://travelketo.ai/tags/smoked-meats/</guid>
       <description></description>
     </item>
     <item>
       <title>Travel</title>
-      <link>http://localhost:1313/tags/travel/</link>
-      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/travel/</guid>
+      <link>https://travelketo.ai/tags/travel/</link>
+      <pubDate>Wed, 15 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>https://travelketo.ai/tags/travel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Travel-Food</title>
+      <link>https://travelketo.ai/tags/travel-food/</link>
+      <pubDate>Wed, 15 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>https://travelketo.ai/tags/travel-food/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cultural-Food</title>
+      <link>https://travelketo.ai/tags/cultural-food/</link>
+      <pubDate>Wed, 15 Jan 2025 10:00:00 +0000</pubDate>
+      <guid>https://travelketo.ai/tags/cultural-food/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Global-Keto</title>
+      <link>https://travelketo.ai/tags/global-keto/</link>
+      <pubDate>Wed, 15 Jan 2025 10:00:00 +0000</pubDate>
+      <guid>https://travelketo.ai/tags/global-keto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>International-Cuisine</title>
+      <link>https://travelketo.ai/tags/international-cuisine/</link>
+      <pubDate>Wed, 15 Jan 2025 10:00:00 +0000</pubDate>
+      <guid>https://travelketo.ai/tags/international-cuisine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Restaurant-Guide</title>
+      <link>https://travelketo.ai/tags/restaurant-guide/</link>
+      <pubDate>Wed, 15 Jan 2025 10:00:00 +0000</pubDate>
+      <guid>https://travelketo.ai/tags/restaurant-guide/</guid>
       <description></description>
     </item>
   </channel>

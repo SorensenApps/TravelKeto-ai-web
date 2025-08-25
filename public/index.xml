@@ -2,32 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to TravelKetoAI on TravelKetoAI</title>
-    <link>http://localhost:1313/</link>
+    <link>https://travelketo.ai/</link>
     <description>Recent content in Welcome to TravelKetoAI on TravelKetoAI</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://travelketo.ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact Us</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://travelketo.ai/contact/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://travelketo.ai/contact/</guid>
       <description>&lt;h2 id=&#34;get-in-touch&#34;&gt;Get in Touch&lt;/h2&gt;&#xA;&lt;p&gt;Have questions about keto travel? Want to share your experiences? Looking to collaborate? We&amp;rsquo;d love to hear from you!&lt;/p&gt;&#xA;&lt;h3 id=&#34;ways-to-connect&#34;&gt;Ways to Connect&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:hello@travelketo.ai&#34;&gt;hello@travelketo.ai&lt;/a&gt;&lt;br&gt;&#xA;&lt;strong&gt;Newsletter&lt;/strong&gt;: Subscribe for updates on our AI travel companion&lt;br&gt;&#xA;&lt;strong&gt;Social Media&lt;/strong&gt;: Follow us for daily keto travel inspiration&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-were-looking-for&#34;&gt;What We&amp;rsquo;re Looking For&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Travel Stories&lt;/strong&gt;: Share your keto travel experiences&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Restaurant Recommendations&lt;/strong&gt;: Help other travelers find keto-friendly spots&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Feedback&lt;/strong&gt;: Tell us what features you&amp;rsquo;d like in our upcoming app&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Collaborations&lt;/strong&gt;: Partner with us to make keto travel easier for everyone&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;stay-updated&#34;&gt;Stay Updated&lt;/h3&gt;&#xA;&lt;p&gt;Join our newsletter to be the first to know when our AI-powered travel companion launches. We&amp;rsquo;ll also send you exclusive travel tips, restaurant reviews, and community updates.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Keto Travel Tips: Getting Started</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <title>Thank You</title>
+      <link>https://travelketo.ai/thank-you/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h1 id=&#34;your-first-keto-travel-adventure-starts-here&#34;&gt;Your First Keto Travel Adventure Starts Here&lt;/h1&gt;&#xA;&lt;p&gt;Travelling while maintaining a ketogenic lifestyle doesn&amp;rsquo;t have to be stressful. Here are some essential tips to get you started.&lt;/p&gt;&#xA;&lt;h2 id=&#34;planning-ahead&#34;&gt;Planning Ahead&lt;/h2&gt;&#xA;&lt;p&gt;Research keto-friendly restaurants at your destination before you travel. Most cities have hidden gems that cater to low-carb diets.&lt;/p&gt;&#xA;&lt;h2 id=&#34;packing-essentials&#34;&gt;Packing Essentials&lt;/h2&gt;&#xA;&lt;p&gt;Always pack keto snacks like nuts, cheese, and meat jerky for those moments when suitable food options aren&amp;rsquo;t available.&lt;/p&gt;&#xA;&lt;h2 id=&#34;airport-survival&#34;&gt;Airport Survival&lt;/h2&gt;&#xA;&lt;p&gt;Airport food courts are getting better at offering keto options. Look for salad bars, grilled proteins, and avoid the bread basket!&lt;/p&gt;</description>
+      <guid>https://travelketo.ai/thank-you/</guid>
+      <description>&lt;h2 id=&#34;youre-on-the-list-&#34;&gt;You&amp;rsquo;re on the list 🎉&lt;/h2&gt;&#xA;&lt;p&gt;Thanks for joining the TravelKetoAI waitlist. We&amp;rsquo;ll email you with early access and updates as we get closer to launch.&lt;/p&gt;&#xA;&lt;p&gt;In the meantime:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Check out our latest posts for keto travel tips.&lt;/li&gt;&#xA;&lt;li&gt;Reply to any email to tell us which cities you want supported first.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://travelketo.ai/&#34;&gt;Back to Home&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Thank You</title>
-      <link>http://localhost:1313/thank-you/</link>
-      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thank-you/</guid>
-      <description>&lt;h2 id=&#34;youre-on-the-list-&#34;&gt;You&amp;rsquo;re on the list 🎉&lt;/h2&gt;&#xA;&lt;p&gt;Thanks for joining the TravelKetoAI waitlist. We&amp;rsquo;ll email you with early access and updates as we get closer to launch.&lt;/p&gt;&#xA;&lt;p&gt;In the meantime:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Check out our latest posts for keto travel tips.&lt;/li&gt;&#xA;&lt;li&gt;Reply to any email to tell us which cities you want supported first.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/&#34;&gt;Back to Home&lt;/a&gt;&lt;/p&gt;</description>
+      <title>Why BBQ Is the Unsung Hero of Keto Travel</title>
+      <link>https://travelketo.ai/posts/why-bbq-is-the-unsung-hero-of-keto-travel/</link>
+      <pubDate>Wed, 15 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>https://travelketo.ai/posts/why-bbq-is-the-unsung-hero-of-keto-travel/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;images/BBQ-Perfect-Keto.jpg&#34; alt=&#34;Why BBQ Is the Unsung Hero of Keto Travel&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When most people think of travel food, they picture airport food courts, hotel buffets, or quick-service chains. For someone following a keto or low-carb lifestyle, these environments can feel like a minefield of bread, sugar, and starches. But hidden in plain sight is one of the most keto-friendly cuisines in the world: BBQ.&lt;/p&gt;&#xA;&lt;h2 id=&#34;bbq-naturally-low-carb-by-design&#34;&gt;BBQ: Naturally Low-Carb by Design&lt;/h2&gt;&#xA;&lt;p&gt;At its heart, true barbecue is about meat, smoke, and fire. Whether it is Texas brisket, Carolina pulled pork, Argentinian asado, or Korean galbi, BBQ is built around protein and fat, the cornerstones of keto eating. Unlike many global cuisines where starches and grains are unavoidable, traditional BBQ plates can often be enjoyed with minimal modification.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From Tokyo to Texas: A Research-Based Guide to Keto-Friendly Cuisines Worldwide</title>
+      <link>https://travelketo.ai/posts/from-tokyo-to-texas-keto-friendly-cuisines-worldwide/</link>
+      <pubDate>Wed, 15 Jan 2025 10:00:00 +0000</pubDate>
+      <guid>https://travelketo.ai/posts/from-tokyo-to-texas-keto-friendly-cuisines-worldwide/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;images/TokyoToTexas.jpg&#34; alt=&#34;From Tokyo to Texas: Keto-Friendly Cuisines Worldwide&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The ketogenic diet transforms how we approach international cuisines, revealing that virtually every culture offers naturally low-carb treasures when you know where to look. Recent research from 17 meta-analyses comprising 68 randomized controlled trials demonstrates that ketogenic diets provide significant health benefits, from 5-fold higher seizure reduction rates in epilepsy to meaningful improvements in diabetes management. This evidence-based guide unlocks the keto potential hidden within traditional cuisines from Japanese sashimi bars to Texas BBQ joints, showing how ancient cooking wisdom often aligns perfectly with modern nutritional science.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

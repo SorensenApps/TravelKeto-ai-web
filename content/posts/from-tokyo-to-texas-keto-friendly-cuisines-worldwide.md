@@ -5,7 +5,7 @@ draft: false
 description: "Discover how to maintain ketosis while enjoying authentic flavors from Japanese sashimi bars to Texas BBQ joints. This comprehensive guide shows how every major world cuisine offers naturally low-carb treasures."
 tags: ["keto", "travel", "international-cuisine", "cultural-food", "low-carb", "dining-out", "global-keto", "restaurant-guide"]
 categories: ["travel-tips", "keto-guides"]
-image: "images/TokyoToTexas.jpg"
+featured_image: "images/TokyoToTexas.jpg"
 ---
 
 ![From Tokyo to Texas: Keto-Friendly Cuisines Worldwide](images/TokyoToTexas.jpg)

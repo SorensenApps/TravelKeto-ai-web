@@ -17,12 +17,10 @@
       {{ end }}
       
       <div class="grid grid-2">
-        {{ range .Paginator.Pages }}
+        {{ range .Pages }}
           {{ .Render "summary" }}
         {{ end }}
       </div>
-      
-      {{ template "_internal/pagination.html" . }}
     </div>
   </section>
 {{ end }}

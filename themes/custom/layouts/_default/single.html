@@ -1,0 +1,38 @@
+{{ define "main" }}
+  <section class="section">
+    <div class="container">
+      <article class="card">
+        <div class="card-content">
+          <header class="post-header">
+            <h1 class="post-title">{{ .Title }}</h1>
+            
+            {{ if .Params.featured_image }}
+            <div style="margin: 1rem 0 0.5rem;">
+              <img src="/{{ .Params.featured_image }}" alt="{{ .Title }}" style="width: 100%; border-radius: var(--radius); border: 1px solid var(--border);" loading="lazy">
+            </div>
+            {{ end }}
+
+            {{ if .Params.description }}
+              <p style="font-size: 1.125rem; color: var(--text-light); margin-bottom: 1rem;">{{ .Params.description }}</p>
+            {{ end }}
+            
+            <div class="post-meta">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+              {{ if .Params.tags }}
+                <span style="margin-left: 1rem;">
+                  {{ range .Params.tags }}
+                    <span class="tag">{{ . }}</span>
+                  {{ end }}
+                </span>
+              {{ end }}
+            </div>
+          </header>
+          
+          <div class="post-content">
+            {{ .Content }}
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+{{ end }}

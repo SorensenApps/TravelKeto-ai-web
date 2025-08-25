@@ -124,7 +124,7 @@
         {{ range first 4 (where .Site.RegularPages "Type" "posts") }}
         <article class="card post-card" style="display: flex; flex-direction: column; height: 100%;">
           {{ if .Params.featured_image }}
-          <div class="post-image" style="height: 200px; background: url('{{ .Params.featured_image }}') center/cover; border-radius: var(--radius) var(--radius) 0 0;"></div>
+          <div class="post-image" style="height: 200px; background: url('/{{ .Params.featured_image }}') center/cover; border-radius: var(--radius) var(--radius) 0 0;"></div>
           {{ else }}
           <div class="post-image" style="height: 200px; background: var(--bg-secondary); border-radius: var(--radius) var(--radius) 0 0; display: flex; align-items: center; justify-content: center; color: var(--text-light);">
             <span style="font-size: 3rem;">📝</span>
